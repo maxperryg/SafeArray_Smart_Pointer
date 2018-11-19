@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72CFDA1921A3120700FEB426 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CFDA1821A3120700FEB426 /* main.cpp */; };
+		72CFDA2021A3122100FEB426 /* SafeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CFDA1F21A3122100FEB426 /* SafeArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		72CFDA1521A3120700FEB426 /* SafeArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SafeArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CFDA1821A3120700FEB426 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		72CFDA1F21A3122100FEB426 /* SafeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SafeArray.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				72CFDA1821A3120700FEB426 /* main.cpp */,
+				72CFDA1F21A3122100FEB426 /* SafeArray.cpp */,
 			);
 			path = SafeArray;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CFDA2021A3122100FEB426 /* SafeArray.cpp in Sources */,
 				72CFDA1921A3120700FEB426 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
